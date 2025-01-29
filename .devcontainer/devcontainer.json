@@ -1,0 +1,20 @@
+{
+    "name": "Python Environment",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11-bullseye",  
+    "postStartCommand": "bash .devcontainer/init.sh",
+  
+    "forwardPorts": [7071],
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          //Python Specifics
+          "ms-python.python",
+          "ms-toolsai.jupyter",
+          "donjayamanne.python-extension-pack",
+          "ms-toolsai.vscode-jupyter-powertoys"
+        ]
+      }
+    },
+    "containerUser": "vscode"
+  }
+  
