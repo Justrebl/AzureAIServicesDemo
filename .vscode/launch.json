@@ -4,12 +4,18 @@
     // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
-            "name": "Débogueur Python : Dalle-3",
+            "name": "Debug: Dalle-3",
             "type": "debugpy",
             "request": "launch",
             "program": "dalle-3/init.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Debug: GPT-4o",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "gpt4o/multimodal.py",
             "console": "integratedTerminal"
         }
     ]
