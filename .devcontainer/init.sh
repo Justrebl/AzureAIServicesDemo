@@ -9,4 +9,6 @@ fi
 
 source .venv/bin/activate 
 
+cd dalle-3 
+
 pip install -r requirements.txt
