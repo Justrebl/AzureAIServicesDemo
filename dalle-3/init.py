@@ -11,7 +11,7 @@ client = AzureOpenAI(
 
 result = client.images.generate(
     model="dall-e-3",  # the name of your DALL-E 3 deployment
-    prompt="draw a watercolor sheep",
+    prompt="Create an image of a classic vintage car, reminiscent of a mid-20th-century design, infused with a vibrant and dynamic pop art style. The car should be depicted in bold, vivid colors with striking patterns that include swirling lines and abstract shapes, giving it an energetic and lively appearance. The background should complement the car with splashes of color and paint splatters, enhancing the overall sense of motion and excitement. The setting should be a minimalistic backdrop that allows the car's colors and patterns to stand out prominently. The image should evoke a sense of nostalgia while simultaneously offering a modern, artistic twist, capturing the essence of a retro yet timeless aesthetic.",
     style="vivid",
     quality="hd",
     size="1792x1024",
